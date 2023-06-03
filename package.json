@@ -1,0 +1,21 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.14",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "langchain": "^0.0.71",
+    "puppeteer": "^19.11.1"
+  }
+}
